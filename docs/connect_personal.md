@@ -5,9 +5,9 @@ nav_order: 4
 ---
 
 # Overview
-{: .warning }
-Do not install Globus Connect Personal on any system that has high-risk data (e.g., HIPAA, PCI, PHI).
-In some cases, Globus can be used to transfer such data, but requires special configuration.
+> {: .warning }
+  Do not install Globus Connect Personal on any system that has high-risk data (e.g., HIPAA, PCI, PHI).
+  In some cases, Globus can be used to transfer such data, but requires special configuration.
 
 If you find yourself often transferring data to/from your personal laptop, using
 Globus Connect personal is much perferred over the upload/download feature.  Globus 
@@ -26,9 +26,10 @@ notification.
 * * *
 
 To get started with Globus Connect Personal, download the installer for your Windows/Mac/Linux machine [here](https://www.globus.org/globus-connect-personal)
-{: .note }
-  > 1. You may need to enable administrative privileges to install the software.
-  > 2. During initial configuration, be sure to provide a descriptive name for the Collection Name to make finding it easier.  Calling it My Laptop
+> {: .note }
+  > You may need to enable administrative privileges to install the software.
+  >
+  > During initial configuration, be sure to provide a descriptive name for the Collection Name to make finding it easier.  Calling it My Laptop
   is not a good choice.
 
 # Configure folder sharing
