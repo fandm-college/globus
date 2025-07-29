@@ -26,3 +26,9 @@ baseurl: globus
 
 #aux_links:
 #  RCS home: https://github.com/just-the-docs/just-the-docs-template
+
+# Callout configuration
+callouts:
+  warning:
+    title: Warning
+    color: red
