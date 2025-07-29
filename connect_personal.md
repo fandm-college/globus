@@ -1,5 +1,6 @@
 ---
 title: Globus Connect Personal
+layout: page
 nav_order: 4
 ---
 
