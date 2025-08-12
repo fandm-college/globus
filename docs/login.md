@@ -4,6 +4,8 @@ layout: page
 nav_order: 2
 ---
 
+# Login instructions
+
 1. The login URL is  [https://app.globus.org](https://app.globus.org)
 2. Type or find **Franklin & Marshall College** in the dropdown box ( see image below) and click the Continue button
 3. Login through RapidID as you normally would
