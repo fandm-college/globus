@@ -9,8 +9,10 @@ nav_order: 2
 3. Login through RapidID as you normally would
 4. If this is your first time logging into Globus may be prompted
    to consent to using your identity to access information and perform other actions.
-   Click Allow
-
-If you are successfully logged in, you should see the Globus File Manager screen.
+   Click Allow.
 
 ![Globus login screen](../assets/images/globus_login.png)
+
+If you have successfully logged in you should see
+
+![Globus file manager](../assets/images/globus_filemgr.png)

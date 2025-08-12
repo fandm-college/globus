@@ -20,13 +20,15 @@ all without needing to be on the VPN.
 
 Importantly, transfers to/from yoursystem won't fail if you shut your system down or disconnect from the network.
 Instead, transfers will suspend and will automatically resume when your system comes
-back oonline **unless** three or more days have elapsed.  In that situation,
+back online **unless** three or more days have elapsed.  In that situation,
 the transfer will be cancelled due to inactivity and you will get an email
 notification.
 
 * * *
 
-To get started with Globus Connect Personal, download the installer for your Windows/Mac/Linux machine [here](https://www.globus.org/globus-connect-personal)
+To get started with Globus Connect Personal, download the installer for your Windows/Mac/Linux machine: 
+
+[(https://www.globus.org/globus-connect-personal](https://www.globus.org/globus-connect-personal)
 
 {: .note }
 > You may need to enable administrative privileges to install the software.
