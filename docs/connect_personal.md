@@ -34,9 +34,8 @@ To get started with Globus Connect Personal, download the installer for your Win
 > During initial configuration, be sure to provide a descriptive name for the Collection Name to make finding it easier.  Calling it "My Laptop"
 is not a good choice.
 
-# Configure folder sharing
+# Configure folders sharing
 In order to configure what is shareable from your laptop use the following documentation.
-This documentation will
 
 - [Mac](https://docs.globus.org/globus-connect-personal/install/mac/#configuration)
 - [Windows](https://docs.globus.org/globus-connect-personal/install/windows/#configuration)
