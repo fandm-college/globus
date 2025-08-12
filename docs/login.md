@@ -1,5 +1,6 @@
 ---
 title: Globus Login
+layout: page
 nav_order: 2
 ---
 
