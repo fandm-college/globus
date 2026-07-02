@@ -1,0 +1,31 @@
+img.figure {
+  border: 1px solid #d7dee8;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.10);
+  max-width: 100%;
+}
+
+.figure-caption {
+  color: #555;
+  font-size: 0.9rem;
+  margin-top: 0.35rem;
+  margin-bottom: 1.25rem;
+}
+
+.home-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.home-card {
+  border: 1px solid #d7dee8;
+  border-radius: 12px;
+  padding: 1rem;
+  background: #f9fbfd;
+}
+
+.home-card h3 {
+  margin-top: 0;
+}

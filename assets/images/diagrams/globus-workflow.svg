@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360">
+<style>
+.box{fill:#eef6fd;stroke:#003B71;stroke-width:3;rx:16}
+.center{fill:#003B71;stroke:#003B71;stroke-width:3;rx:18}
+.txt{font-family:Arial,sans-serif;font-size:24px;fill:#1f2933;font-weight:600;text-anchor:middle}
+.ctxt{font-family:Arial,sans-serif;font-size:30px;fill:white;font-weight:700;text-anchor:middle}
+.line{stroke:#003B71;stroke-width:4}
+</style>
+<rect class="center" x="390" y="130" width="200" height="90"/>
+<text class="ctxt" x="490" y="185">Globus</text>
+<rect class="box" x="60" y="40" width="220" height="80"/><text class="txt" x="170" y="90">Laptop/Desktop</text>
+<rect class="box" x="60" y="240" width="220" height="80"/><text class="txt" x="170" y="290">HPC Storage</text>
+<rect class="box" x="700" y="40" width="220" height="80"/><text class="txt" x="810" y="90">Research Storage</text>
+<rect class="box" x="700" y="240" width="220" height="80"/><text class="txt" x="810" y="290">Collaborators</text>
+<line class="line" x1="280" y1="80" x2="390" y2="150"/>
+<line class="line" x1="280" y1="280" x2="390" y2="200"/>
+<line class="line" x1="590" y1="150" x2="700" y2="80"/>
+<line class="line" x1="590" y1="200" x2="700" y2="280"/>
+</svg>

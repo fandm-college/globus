@@ -1,39 +1,71 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole site, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Globus Tutorial
-description: Research Computing Globus documentation
+title: F&M Globus User Guide
+description: Research Computing Services documentation for Globus at Franklin & Marshall College
 theme: just-the-docs
 
-url: https://fandm-college.github.io
-baseurl: globus
+url: ""
+baseurl: ""
 
-# Callout configuration
+permalink: pretty
+
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+
+heading_anchors: true
+nav_sort: case_insensitive
+back_to_top: true
+back_to_top_text: "Back to top"
+
+aux_links:
+  "Globus Web App":
+    - "https://app.globus.org"
+  "Service Portal":
+    - "https://request.fandm.edu"
+  "Official Globus Docs":
+    - "https://docs.globus.org/"
+
+footer_content: "Research Computing Services Documentation Series • F&M Globus User Guide"
+
+color_scheme: fandm
+
 callouts:
-  highlight:
+  good-to-know:
+    title: Good to Know
+    color: blue
+  expect:
+    title: What Should I Expect?
+    color: green
+  help:
+    title: Need Help?
     color: yellow
+  optional:
+    title: Optional Advanced Topic
+    color: purple
+  recommendation:
+    title: Research Computing Services Recommendation
+    color: red
+  security:
+    title: Security and Data Use
+    color: red
   important:
     title: Important
-    color: blue
-  new:
-    title: New
-    color: green
-  note:
-    title: Note
-    color: purple
-  warning:
-    title: Warning
     color: red
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
