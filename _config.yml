@@ -27,6 +27,8 @@ aux_links:
     - "https://request.fandm.edu"
   "Official Globus Docs":
     - "https://docs.globus.org/"
+  "Research Computing Services":
+    - "https://fandm-college.github.io/rcs-website/"
 
 footer_content: "Research Computing Services Documentation Series • F&M Globus User Guide"
 
