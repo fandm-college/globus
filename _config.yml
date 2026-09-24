@@ -21,7 +21,7 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 aux_links:
-  "← RCS Home":
+  "RCS Home":
     - "https://fandm-college.github.io/rcs-website/"
   "Globus Web App":
     - "https://app.globus.org"
