@@ -21,14 +21,14 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 aux_links:
+  "← RCS Home":
+    - "https://fandm-college.github.io/rcs-website/"
   "Globus Web App":
     - "https://app.globus.org"
-  "Service Portal":
+  "Create a Ticket":
     - "https://request.fandm.edu"
   "Official Globus Docs":
     - "https://docs.globus.org/"
-  "Research Computing Services":
-    - "https://fandm-college.github.io/rcs-website/"
 
 footer_content: "Research Computing Services Documentation Series • F&M Globus User Guide"
 
